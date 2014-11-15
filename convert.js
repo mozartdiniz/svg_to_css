@@ -26,8 +26,6 @@ fs.readdir (path, function (err, files) {
 
     });
 
-    console.log (cssRule);
-
     fs.writeFile('./havefun.css', cssBody, function(err) {
         if(err) {
             console.log(err);
